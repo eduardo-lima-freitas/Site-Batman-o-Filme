@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Declaração do tipo de documento HTML5 e definição do idioma da página como inglês -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, garantindo suporte a caracteres especiais -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a página para ser responsiva, ajustando-se ao tamanho da tela do dispositivo -->
+    
+    <title>Filme Batman</title>
+    <!-- Define o título da página que aparece na aba do navegador -->
+    
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Vincula um arquivo CSS externo para estilizar a página -->
+</head>
+
+<body>
+    <!-- Início do corpo da página -->
+
+    <header>
+        <!-- Cabeçalho da página -->
+        
+        <img id="logo" src="./07e8c4b924a0de5393508f4d7a9be698.jpg" />
+        <!-- Exibe o logotipo da página com um ID para estilização -->
+        
+        <nav>
+            <!-- Navegação principal -->
+            
+            <ul>
+                <!-- Lista de links de navegação -->
+                
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <!-- Link para a página inicial -->
+                
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <!-- Link para a página de contato -->
+                
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <!-- Link para a página de fotos -->
+                
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+                <!-- Link para a página de comentários -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Parte 1: Banner -->
+    <div id="banner"></div>
+    <!-- Um contêiner vazio para o banner, provavelmente estilizado no CSS -->
+
+    <!-- Parte 2: Trailer e sinopse -->
+    <div id="trailer-container">
+        <div class="content">
+            <!-- Contêiner para o trailer e a sinopse -->
+            
+            <video controls class="trailer">
+                <!-- Elemento de vídeo com controles -->
+                
+                <source src="./videoplayback.mp4" type="video/mp4">
+                <!-- Fonte do vídeo no formato MP4 -->
+                
+                Seu navegador não possui suporte para vídeos.
+                <!-- Mensagem exibida caso o navegador não suporte vídeos -->
+            </video>
+            
+            <div id="sinopse">
+                <!-- Contêiner para a sinopse -->
+                
+                <p class="description">
+                    The Batman segue a história de Batman em seu segundo ano de luta contra o crime em busca de vingança, quando descobre a corrupção em Gotham City enquanto persegue o Charada (Dano), um assassino em série que tem como alvo a elite de Gotham.
+                </p>
+                <!-- Parágrafo com a descrição do filme -->
+                
+                <button class="button">Comprar Ingresso</button>
+                <!-- Botão para comprar ingresso -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Parte 3: Cartões de atores -->
+    <div class="actor-cards-container">
+        <div class="cards-content">
+            <!-- Contêiner para os cartões dos atores -->
+            
+            <div class="card banner-1">Robert Pattison - Batman</div>
+            <!-- Cartão para o ator Robert Pattinson -->
+            
+            <div class="card banner-2">Zoe Kravitz - Mulher gato</div>
+            <!-- Cartão para a atriz Zoe Kravitz -->
+            
+            <div class="card banner-3">Jeffrey Wright - Gordon</div>
+            <!-- Cartão para o ator Jeffrey Wright -->
+        </div>
+    </div>
+
+    <!-- Parte 4: Rodapé -->
+    <footer>
+        <!-- Rodapé da página -->
+        
+        <img style="object-fit: contain;" id="logo" src="./07e8c4b924a0de5393508f4d7a9be698.jpg" />
+        <!-- Logotipo no rodapé -->
+        
+        <span>Todos os direitos reservados ©</span>
+        <!-- Mensagem de direitos autorais -->
+        
+        <span>Desenvolvido por: Eduardo Lima</span>
+        <!-- Nome do desenvolvedor -->
+        
+        <nav class="footer-navigation">
+            <!-- Navegação no rodapé -->
+            
+            <ul class="footer-list">
+                <!-- Lista de links no rodapé -->
+                
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+

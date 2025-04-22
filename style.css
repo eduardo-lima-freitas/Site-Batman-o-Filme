@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+/* Importa uma fonte personalizada do Google Fonts chamada "Kdam Thmor Pro" */
+
+* {
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   list-style: none;
+   text-decoration: none;
+}
+/* Remove margens e preenchimentos padrão de todos os elementos, define o fundo como preto, 
+   remove os estilos de lista e sublinhações de links */
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* Define o cabeçalho com altura fixa, usa flexbox para alinhar os itens horizontalmente e centralizá-los verticalmente */
+
+nav {
+    width: 60%;
+}
+/* Define a largura do menu de navegação */
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+/* Usa flexbox para organizar os itens da lista horizontalmente e espaçá-los uniformemente */
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+/* Estiliza os itens da lista com cor, cursor de ponteiro, transição suave e fonte personalizada */
+
+li:hover {
+    color: brown;
+}
+/* Altera a cor do texto para marrom ao passar o mouse */
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+/* Define o tamanho do logotipo */
+
+#banner {
+    background-image: url('https://preview.redd.it/6092ltrt8nt71.jpg?auto=webp&s=c26d698d5d92796be9c6ab47f22dba63a7be96c3');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+/* Define o banner com uma imagem de fundo, centraliza a imagem e ajusta para cobrir todo o espaço */
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+/* Define o contêiner do trailer com largura total, altura fixa e centraliza o conteúdo */
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Define o contêiner interno do trailer com largura fixa e espaçamento entre os elementos */
+
+.trailer {
+    width: 50%;
+}
+/* Define o tamanho do vídeo */
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+/* Estiliza a sinopse com largura fixa, layout em coluna e espaçamento entre os elementos */
+
+.description {
+    color: white;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 70%;
+}
+/* Estiliza o texto da descrição com cor branca, fonte personalizada e largura fixa */
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: brown;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+/* Estiliza o botão com tamanho fixo, cor de fundo marrom, texto branco, bordas arredondadas e transição suave */
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+/* Altera a cor do botão ao passar o mouse */
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* Define o contêiner dos cartões de atores com largura total e centraliza os itens */
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+/* Usa grid para organizar os cartões em 3 colunas com espaçamento entre linhas e colunas */
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: rgb(247, 245, 245);
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+/* Estiliza os cartões com imagem de fundo, bordas arredondadas, transição suave e layout flex */
+
+.card:hover {
+    transform: scale(1.02);
+}
+/* Aumenta levemente o tamanho do cartão ao passar o mouse */
+
+.banner-1 {
+    background-image: url('https://preview.redd.it/zktgeb70i2h91.jpg?auto=webp&s=d3e90d99501486e2cc936f32698c869e1be09bed');
+}
+/* Define a imagem de fundo do primeiro cartão */
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/originals/3c/a6/28/3ca6282ac5440b49f0008981ad151512.png');
+}
+/* Define a imagem de fundo do segundo cartão */
+
+.banner-3 {
+    background-image: url('https://preview.redd.it/opinions-on-jeffrey-wrights-gordon-v0-l617izc155sb1.png?auto=webp&s=d86970095d58cf4443cf974ced11c68dd31e93bf');
+}
+/* Define a imagem de fundo do terceiro cartão */
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Define o rodapé com altura fixa, layout em coluna e centraliza os itens */
+
+span {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+/* Estiliza os textos do rodapé com cor branca e fonte personalizada */
+
+.footer-navigation {
+    display: none;
+}
+/* Esconde a navegação do rodapé por padrão */
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Organiza os links do rodapé em coluna */
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    /* Mostra a navegação do rodapé em telas menores */
+
+    nav {
+        display: none;
+    }
+    /* Esconde o menu principal em telas menores */
+
+    #banner {
+        background-position: 40%;
+    }
+    /* Ajusta a posição da imagem do banner em telas menores */
+
+    #trailer-container {
+        flex-direction: column;
+    }
+    /* Altera o layout do contêiner do trailer para coluna em telas menores */
+
+    .cards-content {
+        grid-template-columns: 1fr;
+    }
+    /* Exibe os cartões em uma única coluna em telas menores */
+}
